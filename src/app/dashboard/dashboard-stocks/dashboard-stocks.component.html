@@ -1,0 +1,8 @@
+<div class="container">
+  <app-stocks *ngFor="let stock of stocks" [stock]="stock" ></app-stocks>
+</div>
+<div class="container">
+  <button mat-icon-button (click)="fetchStocksToday()">
+    Back to Main Page
+  </button>
+</div>
